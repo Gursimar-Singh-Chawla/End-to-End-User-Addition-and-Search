@@ -1,0 +1,35 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Landing Page</title>
+        <style>
+            .main-container{
+                text-align:center;
+            }
+            .heading{
+                font-weight:bold;
+            }
+        </style>
+        <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
+        <script type="text/javascript" src="jquery.js"></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="heading">
+                Landing Page
+            </div>
+            <button id="enterDataBtn">Enter user data</button>
+            <button id="searchDataBtn">Search for user data</button> 
+        </div>
+
+        <script>
+            $(document).on("click","#enterDataBtn",function(ev){
+                window.location.href = "/enter_data.html";
+            });
+
+            $(document).on("click","#searchDataBtn",function(ev){
+                window.location.href = "/search_user.html";
+            });
+        </script>    
+    </body>
+</html>
