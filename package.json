@@ -1,0 +1,26 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GUCHAWLA123/End-to-End-User-Addition-and-Search.git"
+  },
+  "dependencies": {
+    "node-dev":"*",
+    "mongodb": "^2.2.26",
+    "querystring": "*",
+    "url":"*"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GUCHAWLA123/End-to-End-User-Addition-and-Search/issues"
+  },
+  "homepage": "https://github.com/GUCHAWLA123/End-to-End-User-Addition-and-Search#readme"
+}
